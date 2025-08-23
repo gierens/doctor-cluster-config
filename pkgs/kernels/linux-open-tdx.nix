@@ -20,6 +20,7 @@ let
               SYSTEM_REVOCATION_KEYS y
               DRM_AMDGPU n
               DRM_NOUVEAU n
+              DRM_I915 n
             '';
           }
           # NOTE: only needed prior to 6.9
