@@ -18,6 +18,7 @@ let
               KVM_GENERIC_PRIVATE_MEM y
               SYSTEM_TRUSTED_KEYS y
               SYSTEM_REVOCATION_KEYS y
+              DRM_AMDGPU n
             '';
           }
           # NOTE: only needed prior to 6.9
