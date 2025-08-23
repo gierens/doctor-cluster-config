@@ -76,7 +76,7 @@ let
     # tag: v6.16.1
     rev = "3e0969c9a8c57ff3c6139c084673ebedfc1cf14f";
     sha256 = "sha256-0XrB2ZyRlY9KBElQGSL9Une0WLUbGZla5ejV7KQPbiQ=";
-    version = "6.16";
+    version = "6.16.1";
     modDirVersion = "6.16.1";
   };
   tdx_linux_6_16_2 = {
@@ -85,7 +85,7 @@ let
     # tag: v6.16.2
     rev = "25bf10be219d37d2fb221c93816a913f5f735530";
     sha256 = "sha256-O5uOLPTmMKuXkjZGFZ5VufmpYPGl0pOditfBoM9aGM8=";
-    version = "6.16";
+    version = "6.16.2";
     modDirVersion = "6.16.2";
   };
 in
