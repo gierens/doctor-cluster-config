@@ -21,6 +21,7 @@ let
               DRM_AMDGPU n
               DRM_NOUVEAU n
               DRM_I915 n
+              IIO n
             '';
           }
           # NOTE: only needed prior to 6.9
