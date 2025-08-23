@@ -14,10 +14,18 @@ let
             name = "open-tdx-config";
             patch = null;
             extraConfig = ''
+              X86_X2APIC y
+              X86_MCE y
+              KVM y
+              KVM_INTEL y
               KVM_SW_PROTECTED_VM y
               KVM_GENERIC_PRIVATE_MEM y
               SYSTEM_TRUSTED_KEYS y
               SYSTEM_REVOCATION_KEYS y
+              KEXEC n
+              KEXEC_CORE n
+              KEXEC_FILE n
+              CRASH_DUMP n
               DRM_AMDGPU n
               DRM_NOUVEAU n
               DRM_I915 n
