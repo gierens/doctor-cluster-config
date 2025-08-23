@@ -19,6 +19,7 @@ let
               SYSTEM_TRUSTED_KEYS y
               SYSTEM_REVOCATION_KEYS y
               DRM_AMDGPU n
+              DRM_NOUVEAU n
             '';
           }
           # NOTE: only needed prior to 6.9
