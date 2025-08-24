@@ -20,8 +20,6 @@ let
               KVM_INTEL y
               KVM_SW_PROTECTED_VM y
               KVM_GENERIC_PRIVATE_MEM y
-              SYSTEM_TRUSTED_KEYS n
-              SYSTEM_REVOCATION_KEYS n
               KEXEC n
               KEXEC_CORE n
               KEXEC_FILE n
