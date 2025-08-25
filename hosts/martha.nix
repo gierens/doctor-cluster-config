@@ -5,6 +5,7 @@
     ../modules/disko-zfs.nix
     # Fails to build amdgpu module
     # ../modules/intel_tdx.nix
+    ../modules/linux-open-tdx.nix
 
     ../modules/vfio/iommu-intel.nix
     ../modules/dpdk.nix
