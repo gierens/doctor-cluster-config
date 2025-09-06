@@ -88,6 +88,33 @@ let
     version = "6.16.2";
     modDirVersion = "6.16.2";
   };
+  tdx_linux_6_16_3 = {
+    owner = "gierens";
+    repo = "linux";
+    # tag: v6.16.3
+    rev = "fd590381da18a801b7fea1a258e1760335607b10";
+    sha256 = "sha256-ylZ5TKgWXlZmA7ZQ6Z4FLF9BospjIyVYbI/WCUh0b0c=";
+    version = "6.16.3";
+    modDirVersion = "6.16.3";
+  };
+  tdx_linux_6_16_4 = {
+    owner = "gierens";
+    repo = "linux";
+    # tag: v6.16.4
+    rev = "be15dab9a451155bdf3f5278608fe8dc67e07cc1";
+    sha256 = "sha256-/RoKcvBYm+ZWYsOLozlCbhbL0jpqzWOTbdxI/ZwezdY=";
+    version = "6.16.4";
+    modDirVersion = "6.16.4";
+  };
+  tdx_linux_6_16_5 = {
+    owner = "gierens";
+    repo = "linux";
+    # tag: v6.16.5
+    rev = "4645fefac0b24d509b962c096b0327e87f34b1d2";
+    sha256 = "sha256-XiTuH40b3VJqzwygZzU0FcvMDj41Rq6IsMbm+3+QxDY=";
+    version = "6.16.5";
+    modDirVersion = "6.16.5";
+  };
 in
 # change here to change kernel
-buildKernel tdx_linux_6_16_1
+buildKernel tdx_linux_6_16_3
