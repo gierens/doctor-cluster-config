@@ -79,6 +79,15 @@ let
     version = "6.16.5";
     modDirVersion = "6.16.5";
   };
+  tdx_cvisor = {
+    owner = "gierens";
+    repo = "cvisor-linux";
+    # branch: main
+    rev = "4645fefac0b24d509b962c096b0327e87f34b1d2";
+    sha256 = "sha256-XiTuH40b3VJqzwygZzU0FcvMDj41Rq6IsMbm+3+QxDY=";
+    version = "6.16.5";
+    modDirVersion = "6.16.5";
+  };
 in
 # change here to change kernel
-buildKernel tdx_linux_6_16_5
+buildKernel tdx_cvisor
