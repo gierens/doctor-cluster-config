@@ -16,7 +16,7 @@ let
 
         kernelPatches = [
           {
-            name = "tdx-config";
+            name = "cvisor-config";
             patch = null;
             # XXX: The current version of TDX kernel does not support KEXEC
             #      therefore, disable KEXEC, KEXEC_FILE, and CRASH_CUMP that
@@ -32,6 +32,7 @@ let
               KEXEC_FILE n
               CRASH_DUMP n
               INTEL_TDX_HOST y
+              CVISOR_HOST y
               KVM_MMU_PRIVATE y
               DRM_AMDGPU n
               IIO n
