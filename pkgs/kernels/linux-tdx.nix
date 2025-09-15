@@ -5,8 +5,13 @@ let
       (args // rec {
         inherit version modDirVersion;
 
-        src = fetchFromGitHub {
-          inherit owner repo rev sha256;
+        # NOTE: this only works with a public repo or an access token
+        # src = fetchFromGitHub {
+        #   inherit owner repo rev sha256;
+        # };
+        src = builtins.fetchGit {
+          url = "file:///home/gierens/cvisor-linux";
+          ref = "main";
         };
 
         kernelPatches = [
