@@ -6,6 +6,7 @@
     ../modules/vfio/iommu-intel.nix
     ../modules/disko-zfs.nix
     ../modules/dpdk.nix
+    ../modules/linux-open-tdx.nix
   ];
 
   disko.rootDisk = "/dev/sdc";
