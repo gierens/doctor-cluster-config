@@ -7,7 +7,7 @@ in
   # Configuration for OpenTDX
 
   boot.kernelPackages = lib.mkForce linuxPackages;
-  boot.zfs.package = pkgs.zfsUnstable; # needed for 6.9
+  boot.zfs.package = pkgs.zfs_unstable; # needed for 6.9
 
   boot.kernelParams = [
     "kvm_intel.open_tdx=1"

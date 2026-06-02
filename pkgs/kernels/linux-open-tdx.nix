@@ -46,7 +46,7 @@ let
     repo = "tdx-linux";
     # branch: opentdx-host
     rev = "8c6bf74e0ed1e9d135a1b1e22f3aad59877421c1";
-    sha256 = "sha256-0mplbhGEBmkpiBQhrYn5YBHW135DzeLnEEstrVCnbTY=";
+    sha256 = "sha256-EJGGDpBowtDSBr0yIFYTY0FQmw7Q9tvblf0O0IpYIUA=";
     version = "6.8";
     modDirVersion = "6.8.0";
   };
