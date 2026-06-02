@@ -45,7 +45,7 @@ let
     owner = "sslab-gatech";
     repo = "tdx-linux";
     # branch: opentdx-host
-    rev = "fe61e02ba4eed7b193d9f4578614732cc6f34055";
+    rev = "8c6bf74e0ed1e9d135a1b1e22f3aad59877421c1";
     sha256 = "sha256-0mplbhGEBmkpiBQhrYn5YBHW135DzeLnEEstrVCnbTY=";
     version = "6.8";
     modDirVersion = "6.8.0";
